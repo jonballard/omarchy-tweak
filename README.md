@@ -17,3 +17,4 @@ Clone it maybe to ```$HOME/omarchy-tweak``` and run from there.
 ## TODO
 
 * Uninstall unused apps?  1password, ...
+* Screensaver / lock settings

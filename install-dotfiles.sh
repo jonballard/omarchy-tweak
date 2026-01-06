@@ -33,9 +33,10 @@ if [ $? -eq 0 ]; then
   stow ghostty
   # stow tmux
   # stow nvim
-  stow starship
+  # stow starship  # we're going to just use a preset for now
 else
   echo "Failed to clone the repository."
   exit 1
 fi
 
+cd "$ORIGINAL_DIR"
