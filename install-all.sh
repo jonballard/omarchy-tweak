@@ -26,3 +26,6 @@ starship preset gruvbox-rainbow -o ~/.config/starship.toml
 
 #--- Zsh
 #./set-shell.sh
+
+#--- TODO: print out Done
+#--- TODO: print out SSH key / github instructions

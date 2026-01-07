@@ -20,10 +20,14 @@ if [ ! -f "$OVERRIDES_DIR" ]; then
     exit 1
 fi
 
-./append_overrides "$HYPRLAND_CONFIG_DIR"/monitors.conf "$OVERRIDES_DIR"/override-monitors.conf
-./append_overrides "$HYPRLAND_CONFIG_DIR"/input.conf "$OVERRIDES_DIR"/override-input.conf
-./append_overrides "$HYPRLAND_CONFIG_DIR"/bindings.conf "$OVERRIDES_DIR"/override-bindings.conf
-./append_overrides "$HYPRLAND_CONFIG_DIR"/looknfeel.conf "$OVERRIDES_DIR"/override-looknfeel.conf
-./append_overrides "$HYPRLAND_CONFIG_DIR"/autostart.conf "$OVERRIDES_DIR"/override-autostart.conf
+./append_overrides "$HYPRLAND_CONFIG_DIR/monitors.conf" "$OVERRIDES_DIR/override-monitors.conf"
+./append_overrides "$HYPRLAND_CONFIG_DIR/input.conf" "$OVERRIDES_DIR/override-input.conf"
+./append_overrides "$HYPRLAND_CONFIG_DIR/bindings.conf" "$OVERRIDES_DIR/override-bindings.conf"
+./append_overrides "$HYPRLAND_CONFIG_DIR/looknfeel.conf" "$OVERRIDES_DIR/override-looknfeel.conf"
+./append_overrides "$HYPRLAND_CONFIG_DIR/autostart.conf" "$OVERRIDES_DIR/override-autostart.conf"
+
+#--- backup and overwrite screensaver/lock settings
+mv "$HYPRLAND_CONFIG_DIR/hypridle.conf" "$HYPRLAND_CONFIG_DIR/hypridle.conf.orig"
+cp "$OVERRIDES_DIR/hypridle.conf" "$HYPRLAND_CONFIG_DIR/hypridle.conf"
 
 echo "Hyprland overrides setup complete!"
