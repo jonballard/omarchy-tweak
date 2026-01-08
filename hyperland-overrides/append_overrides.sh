@@ -2,8 +2,8 @@
 
 set -e
 
-OMARCHY_FILE="${BASH_SOURCE[1]}"
-OVERRIDE_FILE="${BASH_SOURCE[2]}"
+OMARCHY_FILE="$1"
+OVERRIDE_FILE="$2"
 OVERRIDE_MARKER="# ---------- jb's omarchy-tweak ----------------------------------------"
 
 # Check if hyprland config exists
