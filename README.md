@@ -19,5 +19,6 @@ nice Bash setup (zoxide, fzf, starship) that we'll run with that for a while and
 
 ## TODO
 
+* SSH keygen script
 * Uninstall unused apps?  1password, ...
 * Ghostty setup?
