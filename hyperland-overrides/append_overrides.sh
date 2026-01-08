@@ -25,6 +25,8 @@ if grep -Fxq "$OVERRIDE_MARKER" "$OMARCHY_FILE"; then
 else
     echo "Adding overrides to $OMARCHY_FILE"
     echo "" >> "$OMARCHY_FILE"
+    echo "$OVERRIDE_MARKER" >> "$OMARCHY_FILE"
+    echo "" >> "$OMARCHY_FILE"
     cat "$OVERRIDE_FILE" >> "$OMARCHY_FILE"
     echo "Overrides added successfully"
 fi

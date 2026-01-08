@@ -31,6 +31,7 @@ nice Bash setup (zoxide, fzf, starship) that we'll run with that for a while and
 
 * firebase CLI tools
 * ```.bashrc``` additions
+* ```~/.config/ghostty/config``` set font to 11
 * Waybar height tweak (search and replace ```"height": 26,``` in ```~/.config/waybar/config.jsonc```)
 * Uninstall unused apps?  1password, ...
-* Ghostty setup?
+

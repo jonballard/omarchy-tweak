@@ -22,5 +22,6 @@ xdg-settings set default-web-browser brave-browser.desktop
 
 starship preset gruvbox-rainbow -o ~/.config/starship.toml
 
-echo "Done!"
-echo "Run ./generate-ssh-key.sh to set up github authentication"
+echo ""
+echo ">>> Done!"
+echo ">>> Run ./generate-ssh-key.sh to set up github authentication"
