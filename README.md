@@ -25,6 +25,9 @@ nice Bash setup (zoxide, fzf, starship) that we'll run with that for a while and
 * For [github SSH authentication](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent),
   run ```./generate-ssh-key.sh youremail@wherever.com```
   and [add that key to your github account](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account).
+* Set up syncthing, via the [web console](http://127.0.0.1:8384/)
+* LazyVim mod - Add the following line to ````~/.config/nvim/lua/config/autocmds.lua````: ```vim.api.nvim_del_augroup_by_name("lazyvim_wrap_spell")```
+* Setup printer ??? what is best option here?  Tried ```system-config-printer``` and a PPD and executable from (https://github.com/bvanheu/brother/tree/master/HL2270DW) with no luck
 
 
 ## TODO
