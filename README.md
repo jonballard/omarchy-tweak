@@ -36,5 +36,7 @@ nice Bash setup (zoxide, fzf, starship) that we'll run with that for a while and
 * ```.bashrc``` additions
 * ```~/.config/ghostty/config``` set font to 11
 * Waybar height tweak (search and replace ```"height": 26,``` in ```~/.config/waybar/config.jsonc```)
+* Waybar time/date display?
+* Waybar extensions like weather?
 * Uninstall unused apps?  1password, ...
 
